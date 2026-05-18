@@ -1,13 +1,13 @@
 ---
-title: "Paper Title Number 4"
+title: "Representative Publication Placeholder"
 collection: publications
 category: conferences
-permalink: /publication/2024-02-17-paper-title-number-4
-excerpt: 'This paper is about fixing template issue #693.'
+permalink: /publication/representative-publication-placeholder
+excerpt: 'Replace this entry with a real lab publication before public release.'
 date: 2024-02-17
-venue: 'GitHub Journal of Bugs'
-paperurl: 'https://academicpages.github.io/files/paper3.pdf'
-citation: 'Your Name, You. (2024). &quot;Paper Title Number 3.&quot; <i>GitHub Journal of Bugs</i>. 1(3).'
+venue: 'Journal or Conference Name'
+paperurl:
+citation: 'Author list. (2024). "Representative Publication Placeholder." <i>Journal or Conference Name</i>.'
 ---
 
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+Use this page as a template for an actual publication entry. Add the abstract, links, highlights, and any media you want to feature for a specific paper.
