@@ -7,9 +7,6 @@ redirect_from:
   - /about.html
 ---
 
-
-# Intelligent MRI Lab
-
 The Intelligent MRI Lab is a new research group at the University of Massachusetts Amherst developing artificial intelligence and computational MRI methods for quantitative neuroimaging, accelerated acquisition, quantitative susceptibility mapping, and white matter lesion analysis.
 
 ## About Us
