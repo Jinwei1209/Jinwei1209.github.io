@@ -11,7 +11,7 @@ Jinwei Zhang leads the Intelligent MRI Lab at the University of Massachusetts Am
 
 ## Current Members
 
-At present, the lab is being established and Jinwei Zhang is the current member.
+The lab is currently being established, and Jinwei Zhang is the current member at this stage.
 
 ## Join the Lab
 
