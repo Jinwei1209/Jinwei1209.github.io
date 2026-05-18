@@ -12,11 +12,13 @@
   animation-delay: 0.35s;
 
   @include breakpoint($x-large) {
-    max-width: $x-large;
+    max-width: 1600px;
   }
 }
 
 .page {
+  max-width: 1200px;
+
   @include breakpoint($large) {
     @include span(12 of 12);
   }
