@@ -2,122 +2,149 @@
 permalink: /
 title: "Home"
 author_profile: true
+show_title: false
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-## Intelligent MRI Lab
-
-The Intelligent MRI Lab is a new research group at the University of Massachusetts Amherst developing artificial intelligence and computational MRI methods for quantitative neuroimaging, accelerated acquisition, quantitative susceptibility mapping, and white matter lesion analysis.
-
-## About Us
-
-We build methods at the intersection of imaging physics, inverse problems, machine learning, and clinical neuroimaging. Our goal is to make MRI faster, more quantitative, and more useful for understanding brain disease and supporting translational research.
-
-## Research
-
-<div class="research-carousel" aria-label="Research highlights">
-  <div class="research-carousel__track">
-    <article class="research-card">
-      <div class="research-card__image research-card__image--accelerated"></div>
-      <div class="research-card__body">
-        <h3>Accelerated Quantitative MRI</h3>
-        <p>Fast acquisition and reconstruction for practical quantitative imaging.</p>
-      </div>
-    </article>
-    <article class="research-card">
-      <div class="research-card__image research-card__image--qsm"></div>
-      <div class="research-card__body">
-        <h3>Susceptibility Mapping</h3>
-        <p>Computational pipelines for quantitative susceptibility estimation and analysis.</p>
-      </div>
-    </article>
-    <article class="research-card">
-      <div class="research-card__image research-card__image--lesion"></div>
-      <div class="research-card__body">
-        <h3>Lesion Analysis</h3>
-        <p>Segmentation, tracking, and biomarker discovery for white matter lesions.</p>
-      </div>
-    </article>
-    <article class="research-card">
-      <div class="research-card__image research-card__image--longitudinal"></div>
-      <div class="research-card__body">
-        <h3>Longitudinal Imaging</h3>
-        <p>Methods for monitoring change over time in neuroimaging studies.</p>
-      </div>
-    </article>
-    <article class="research-card">
-      <div class="research-card__image research-card__image--ai"></div>
-      <div class="research-card__body">
-        <h3>AI for Neuroimaging</h3>
-        <p>Learning-based tools for reconstruction, analysis, and clinical translation.</p>
-      </div>
-    </article>
-
-    <article class="research-card" aria-hidden="true">
-      <div class="research-card__image research-card__image--accelerated"></div>
-      <div class="research-card__body">
-        <h3>Accelerated Quantitative MRI</h3>
-        <p>Fast acquisition and reconstruction for practical quantitative imaging.</p>
-      </div>
-    </article>
-    <article class="research-card" aria-hidden="true">
-      <div class="research-card__image research-card__image--qsm"></div>
-      <div class="research-card__body">
-        <h3>Susceptibility Mapping</h3>
-        <p>Computational pipelines for quantitative susceptibility estimation and analysis.</p>
-      </div>
-    </article>
-    <article class="research-card" aria-hidden="true">
-      <div class="research-card__image research-card__image--lesion"></div>
-      <div class="research-card__body">
-        <h3>Lesion Analysis</h3>
-        <p>Segmentation, tracking, and biomarker discovery for white matter lesions.</p>
-      </div>
-    </article>
-    <article class="research-card" aria-hidden="true">
-      <div class="research-card__image research-card__image--longitudinal"></div>
-      <div class="research-card__body">
-        <h3>Longitudinal Imaging</h3>
-        <p>Methods for monitoring change over time in neuroimaging studies.</p>
-      </div>
-    </article>
-    <article class="research-card" aria-hidden="true">
-      <div class="research-card__image research-card__image--ai"></div>
-      <div class="research-card__body">
-        <h3>AI for Neuroimaging</h3>
-        <p>Learning-based tools for reconstruction, analysis, and clinical translation.</p>
-      </div>
-    </article>
+<section class="home-banner">
+  <div class="home-banner__inner">
+    <p class="home-banner__eyebrow">University of Massachusetts Amherst</p>
+    <h1>Intelligent MRI Lab</h1>
+    <p>AI and computational MRI for quantitative neuroimaging, accelerated acquisition, susceptibility mapping, and lesion analysis.</p>
   </div>
-</div>
+</section>
 
-- Accelerated quantitative MRI
-- Quantitative susceptibility mapping
-- Multiple sclerosis lesion analysis
-- Longitudinal lesion tracking
-- AI for computational neuroimaging
+<section class="home-section home-section--intro">
+  <div class="home-section__inner home-intro-grid">
+    <div class="home-intro-grid__media">
+      <img src="/IALS.jpg" alt="Integrated Learning and Science building at UMass Amherst">
+    </div>
+    <div class="home-intro-grid__text">
+      <h2>About Us</h2>
+      <p>The Intelligent MRI Lab is a new research group at the University of Massachusetts Amherst. We build methods at the intersection of imaging physics, inverse problems, machine learning, and clinical neuroimaging.</p>
+      <p>Our goal is to make MRI faster, more quantitative, and more useful for understanding brain disease and supporting translational research.</p>
+    </div>
+  </div>
+</section>
 
-Learn more on the [Research](/research/) page.
+<section class="home-section">
+  <div class="home-section__inner">
+    <div class="home-section__heading">
+      <h2>Research</h2>
+      <a href="/research/" class="home-section__link">View all research</a>
+    </div>
 
-## Recent Updates
+    <div class="research-carousel" aria-label="Research highlights">
+      <div class="research-carousel__track">
+        <article class="research-card">
+          <div class="research-card__image research-card__image--accelerated"></div>
+          <div class="research-card__body">
+            <h3>Accelerated Quantitative MRI</h3>
+            <p>Fast acquisition and reconstruction for practical quantitative imaging.</p>
+          </div>
+        </article>
+        <article class="research-card">
+          <div class="research-card__image research-card__image--qsm"></div>
+          <div class="research-card__body">
+            <h3>Susceptibility Mapping</h3>
+            <p>Computational pipelines for quantitative susceptibility estimation and analysis.</p>
+          </div>
+        </article>
+        <article class="research-card">
+          <div class="research-card__image research-card__image--lesion"></div>
+          <div class="research-card__body">
+            <h3>Lesion Analysis</h3>
+            <p>Segmentation, tracking, and biomarker discovery for white matter lesions.</p>
+          </div>
+        </article>
+        <article class="research-card">
+          <div class="research-card__image research-card__image--longitudinal"></div>
+          <div class="research-card__body">
+            <h3>Longitudinal Imaging</h3>
+            <p>Methods for monitoring change over time in neuroimaging studies.</p>
+          </div>
+        </article>
+        <article class="research-card">
+          <div class="research-card__image research-card__image--ai"></div>
+          <div class="research-card__body">
+            <h3>AI for Neuroimaging</h3>
+            <p>Learning-based tools for reconstruction, analysis, and clinical translation.</p>
+          </div>
+        </article>
 
-{% for post in site.posts limit:3 %}
-- **{{ post.date | date: "%b %Y" }}**: [{{ post.title }}]({{ post.url }})
-{% endfor %}
+        <article class="research-card" aria-hidden="true">
+          <div class="research-card__image research-card__image--accelerated"></div>
+          <div class="research-card__body">
+            <h3>Accelerated Quantitative MRI</h3>
+            <p>Fast acquisition and reconstruction for practical quantitative imaging.</p>
+          </div>
+        </article>
+        <article class="research-card" aria-hidden="true">
+          <div class="research-card__image research-card__image--qsm"></div>
+          <div class="research-card__body">
+            <h3>Susceptibility Mapping</h3>
+            <p>Computational pipelines for quantitative susceptibility estimation and analysis.</p>
+          </div>
+        </article>
+        <article class="research-card" aria-hidden="true">
+          <div class="research-card__image research-card__image--lesion"></div>
+          <div class="research-card__body">
+            <h3>Lesion Analysis</h3>
+            <p>Segmentation, tracking, and biomarker discovery for white matter lesions.</p>
+          </div>
+        </article>
+        <article class="research-card" aria-hidden="true">
+          <div class="research-card__image research-card__image--longitudinal"></div>
+          <div class="research-card__body">
+            <h3>Longitudinal Imaging</h3>
+            <p>Methods for monitoring change over time in neuroimaging studies.</p>
+          </div>
+        </article>
+        <article class="research-card" aria-hidden="true">
+          <div class="research-card__image research-card__image--ai"></div>
+          <div class="research-card__body">
+            <h3>AI for Neuroimaging</h3>
+            <p>Learning-based tools for reconstruction, analysis, and clinical translation.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
 
-See all updates on the [News](/news/) page.
+<section class="home-section home-section--split">
+  <div class="home-section__inner home-split-grid">
+    <div class="home-card">
+      <h2>Recent Updates</h2>
+      <ul class="home-news-list">
+        {% for post in site.posts limit:3 %}
+        <li><span>{{ post.date | date: "%b %d, %Y" }}</span><a href="{{ post.url }}">{{ post.title }}</a></li>
+        {% endfor %}
+      </ul>
+      <a href="/news/" class="home-section__link">See all news</a>
+    </div>
 
-## Openings
+    <div class="home-card">
+      <h2>Openings</h2>
+      <p>The lab is currently being established. We welcome inquiries from prospective PhD students, postdocs, and collaborators interested in MRI, machine learning, image reconstruction, and clinically relevant neuroimaging.</p>
+      <p>Email <a href="mailto:jinweizhang@umass.edu">jinweizhang@umass.edu</a> or visit the <a href="/openings/">Openings</a> page for details.</p>
+    </div>
+  </div>
+</section>
 
-The lab is currently being established. We welcome inquiries from prospective PhD students, postdocs, and collaborators interested in MRI, machine learning, image reconstruction, and clinically relevant neuroimaging.
-
-See the [Openings](/openings/) page for details, or email [jinweizhang@umass.edu](mailto:jinweizhang@umass.edu).
-
-## Contact
-
-University of Massachusetts Amherst  
-Life Sciences Laboratories, Room S607  
-Goessmann Laboratory, Room 266  
-Email: [jinweizhang@umass.edu](mailto:jinweizhang@umass.edu)
+<section class="home-section home-section--contact">
+  <div class="home-section__inner">
+    <div class="home-section__heading">
+      <h2>Contact</h2>
+      <a href="/contact/" class="home-section__link">Full contact page</a>
+    </div>
+    <div class="home-contact-grid">
+      <p>University of Massachusetts Amherst</p>
+      <p>Life Sciences Laboratories, Room S607</p>
+      <p>Goessmann Laboratory, Room 266</p>
+      <p><a href="mailto:jinweizhang@umass.edu">jinweizhang@umass.edu</a></p>
+    </div>
+  </div>
+</section>
