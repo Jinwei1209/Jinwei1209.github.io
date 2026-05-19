@@ -27,7 +27,7 @@
   &__inner-wrap {
     @include container;
     @include clearfix;
-    padding: 0.5em 1em;
+    padding: 0.2em 1em;
     font-family: $sans-serif-narrow;
 
     @include breakpoint($x-large) {
@@ -66,12 +66,37 @@
   }
 }
 
+.masthead__site-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.7rem;
+  line-height: 0;
+}
+
+.masthead__site-logo {
+  width: 92px;
+  height: auto;
+  object-fit: contain;
+  flex: 0 0 auto;
+  display: block;
+  margin-top: -6px;
+  margin-bottom: -6px;
+}
+
 .masthead__menu-item.selected a {
   color: var(--global-text-color);
   font-weight: 700;
   border-bottom: 2px solid var(--global-text-color);
   pointer-events: none; /* Move this here */
   cursor: default; /* Move this here too */
+}
+
+.masthead__menu-item--lg.selected a {
+  border-bottom: none;
+}
+
+.masthead__menu-item--lg.selected a:hover {
+  border-bottom: none;
 }
 
 .masthead__menu-item.selected a:hover {
