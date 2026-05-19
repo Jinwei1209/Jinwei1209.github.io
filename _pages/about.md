@@ -17,6 +17,82 @@ We build methods at the intersection of imaging physics, inverse problems, machi
 
 ## Research
 
+<div class="research-carousel" aria-label="Research highlights">
+  <div class="research-carousel__track">
+    <article class="research-card">
+      <div class="research-card__image research-card__image--accelerated"></div>
+      <div class="research-card__body">
+        <h3>Accelerated Quantitative MRI</h3>
+        <p>Fast acquisition and reconstruction for practical quantitative imaging.</p>
+      </div>
+    </article>
+    <article class="research-card">
+      <div class="research-card__image research-card__image--qsm"></div>
+      <div class="research-card__body">
+        <h3>Susceptibility Mapping</h3>
+        <p>Computational pipelines for quantitative susceptibility estimation and analysis.</p>
+      </div>
+    </article>
+    <article class="research-card">
+      <div class="research-card__image research-card__image--lesion"></div>
+      <div class="research-card__body">
+        <h3>Lesion Analysis</h3>
+        <p>Segmentation, tracking, and biomarker discovery for white matter lesions.</p>
+      </div>
+    </article>
+    <article class="research-card">
+      <div class="research-card__image research-card__image--longitudinal"></div>
+      <div class="research-card__body">
+        <h3>Longitudinal Imaging</h3>
+        <p>Methods for monitoring change over time in neuroimaging studies.</p>
+      </div>
+    </article>
+    <article class="research-card">
+      <div class="research-card__image research-card__image--ai"></div>
+      <div class="research-card__body">
+        <h3>AI for Neuroimaging</h3>
+        <p>Learning-based tools for reconstruction, analysis, and clinical translation.</p>
+      </div>
+    </article>
+
+    <article class="research-card" aria-hidden="true">
+      <div class="research-card__image research-card__image--accelerated"></div>
+      <div class="research-card__body">
+        <h3>Accelerated Quantitative MRI</h3>
+        <p>Fast acquisition and reconstruction for practical quantitative imaging.</p>
+      </div>
+    </article>
+    <article class="research-card" aria-hidden="true">
+      <div class="research-card__image research-card__image--qsm"></div>
+      <div class="research-card__body">
+        <h3>Susceptibility Mapping</h3>
+        <p>Computational pipelines for quantitative susceptibility estimation and analysis.</p>
+      </div>
+    </article>
+    <article class="research-card" aria-hidden="true">
+      <div class="research-card__image research-card__image--lesion"></div>
+      <div class="research-card__body">
+        <h3>Lesion Analysis</h3>
+        <p>Segmentation, tracking, and biomarker discovery for white matter lesions.</p>
+      </div>
+    </article>
+    <article class="research-card" aria-hidden="true">
+      <div class="research-card__image research-card__image--longitudinal"></div>
+      <div class="research-card__body">
+        <h3>Longitudinal Imaging</h3>
+        <p>Methods for monitoring change over time in neuroimaging studies.</p>
+      </div>
+    </article>
+    <article class="research-card" aria-hidden="true">
+      <div class="research-card__image research-card__image--ai"></div>
+      <div class="research-card__body">
+        <h3>AI for Neuroimaging</h3>
+        <p>Learning-based tools for reconstruction, analysis, and clinical translation.</p>
+      </div>
+    </article>
+  </div>
+</div>
+
 - Accelerated quantitative MRI
 - Quantitative susceptibility mapping
 - Multiple sclerosis lesion analysis
