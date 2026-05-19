@@ -187,7 +187,7 @@
 }
 
 .home-intro-grid {
-  grid-template-columns: minmax(280px, 430px) minmax(0, 1fr);
+  grid-template-columns: 1.35fr 0.8fr;
   align-items: center;
 }
 
@@ -202,6 +202,10 @@
   min-height: 320px;
   object-fit: cover;
   border-radius: 8px;
+}
+
+.home-intro-grid__text {
+  max-width: 42rem;
 }
 
 .home-intro-grid__text h2,
