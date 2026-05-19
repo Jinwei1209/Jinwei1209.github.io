@@ -5,21 +5,34 @@
       <a href="{{ base_path }}/" class="masthead__site-brand {% if page.url == '/' or page.url == '/index.html' %}selected{% endif %}">
         <img src="{{ base_path }}/images/lab-logo-header.png" alt="Intelligent MRI Lab logo" class="masthead__site-logo">
       </a>
-      <nav id="site-nav" class="greedy-nav">
-        <button><span class="navicon"></span></button>
-        <ul class="visible-links">
+      <nav id="masthead-nav" class="masthead-nav">
+        <button class="masthead-nav__toggle" type="button" aria-expanded="false" aria-controls="masthead-nav-drawer">
+          <span class="navicon"></span>
+        </button>
+        <ul class="masthead-nav__links">
           {% for link in site.data.navigation.main %}
             {% if link.url contains 'http' %}
               {% assign domain = '' %}
             {% else %}
               {% assign domain = base_path %}
             {% endif %}
-            <li class="masthead__menu-item persist {% if page.url contains link.url and link.url != '/' %}selected{% endif %}{% if link.title == 'Contact' %} masthead__menu-item--contact{% endif %}">
+            <li class="masthead__menu-item {% if page.url contains link.url and link.url != '/' %}selected{% endif %}{% if link.title == 'Contact' %} masthead__menu-item--contact{% endif %}">
               <a href="{{ domain }}{{ link.url }}">{{ link.title }}</a>
             </li>
           {% endfor %}
         </ul>
-        <ul class="hidden-links hidden"></ul>
+        <ul id="masthead-nav-drawer" class="masthead-nav__drawer hidden">
+          {% for link in site.data.navigation.main %}
+            {% if link.url contains 'http' %}
+              {% assign domain = '' %}
+            {% else %}
+              {% assign domain = base_path %}
+            {% endif %}
+            <li class="masthead__menu-item{% if link.title == 'Contact' %} masthead__menu-item--contact{% endif %}">
+              <a href="{{ domain }}{{ link.url }}">{{ link.title }}</a>
+            </li>
+          {% endfor %}
+        </ul>
       </nav>
     </div>
   </div>

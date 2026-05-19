@@ -34,6 +34,7 @@
     margin-top: 1em;
     max-width: 100%;
     padding: 0 1em 1em;
+    text-align: center;
 
     @include breakpoint($x-large) {
       max-width: $x-large;
@@ -58,8 +59,11 @@
 }
 
 .page__footer-copyright {
+  display: block;
+  width: 100%;
   font-family: $global-font-family;
   font-size: $type-size-7;
+  text-align: center;
 }
 
 .page__footer-follow {

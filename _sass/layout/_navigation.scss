@@ -172,7 +172,7 @@
    Priority plus navigation
    ========================================================================== */
 
-.greedy-nav {
+.masthead-nav {
   position: relative;
   min-width: 0;
   width: 100%;
@@ -203,20 +203,24 @@
     z-index: 100;
   }
 
-  .visible-links {
-    display: flex;
+  .masthead-nav__links {
+    display: inline-flex;
     align-items: center;
     justify-content: flex-end;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     gap: 0;
-    width: 100%;
+    width: auto;
+    max-width: 100%;
     margin: 0;
     margin-left: auto;
     padding: 0;
     clear: none;
+    overflow: hidden;
+    white-space: nowrap;
 
     li {
       display: block;
+      flex: 0 0 auto;
       margin-left: 2.2rem;
       vertical-align: middle;
 
@@ -229,15 +233,6 @@
         a {
           margin-right: 0;
         }
-      }
-    }
-
-    #theme-toggle {
-      a {
-        width: 25px;
-        display: flex;
-        justify-content: center;
-        cursor: pointer;
       }
     }
 
@@ -256,7 +251,7 @@
     }
   }
 
-  .hidden-links {
+  .masthead-nav__drawer {
     position: absolute;
     top: 100%;
     right: 0;
@@ -315,54 +310,60 @@
   }
 }
 
-.greedy-nav .visible-links .masthead__menu-item--contact {
+.masthead-nav .masthead-nav__links .masthead__menu-item--contact {
   margin-left: 2.5rem;
 }
 
-.greedy-nav .visible-links .masthead__menu-item--contact a {
+.masthead-nav .masthead-nav__links .masthead__menu-item--contact a {
   padding: 0.9rem 1.55rem;
   background: #881c1c;
   color: #fff;
   line-height: 1;
 }
 
-.greedy-nav .visible-links .masthead__menu-item--contact a:hover {
+.masthead-nav .masthead-nav__links .masthead__menu-item--contact a:hover {
   color: #fff;
   background: #6f1616;
 }
 
-@media (min-width: 901px) {
-  .greedy-nav button {
-    display: none !important;
+.masthead-nav__toggle.hidden {
+  display: none;
+}
+
+.masthead-nav--collapsed {
+  .masthead-nav__links {
+    display: none;
   }
 
-  .greedy-nav .visible-links {
-    display: flex !important;
+  .masthead-nav__toggle {
+    display: block;
+  }
+}
+
+.masthead-nav:not(.masthead-nav--collapsed) {
+  .masthead-nav__toggle {
+    display: none;
   }
 
-  .greedy-nav .hidden-links {
+  .masthead-nav__drawer {
     display: none !important;
   }
 }
 
 @media (max-width: 900px) {
-  .greedy-nav {
-    .visible-links {
-      li {
-        margin-left: 1.2rem;
-      }
-
-      a {
-        font-size: 1rem;
-      }
-    }
+  .masthead-nav .masthead-nav__links li {
+    margin-left: 1.2rem;
   }
 
-  .greedy-nav .visible-links .masthead__menu-item--contact {
-    margin-left: 1.4rem;
+  .masthead-nav .masthead-nav__links a {
+    font-size: 1rem;
   }
 
-  .greedy-nav .visible-links .masthead__menu-item--contact a {
+  .masthead-nav .masthead-nav__links .masthead__menu-item--contact {
+    margin-left: 0;
+  }
+
+  .masthead-nav .masthead-nav__links .masthead__menu-item--contact a {
     padding: 0.75rem 1.1rem;
   }
 }

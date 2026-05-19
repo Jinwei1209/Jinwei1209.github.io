@@ -5,6 +5,64 @@
   } catch (e) {}
 </script>
 <script type="module" src="{{ base_path }}/assets/js/main.min.js"></script>
+<script>
+  window.addEventListener("load", function () {
+    var nav = document.getElementById("masthead-nav");
+    if (!nav) return;
+
+    var toggle = nav.querySelector(".masthead-nav__toggle");
+    var links = nav.querySelector(".masthead-nav__links");
+    var drawer = nav.querySelector(".masthead-nav__drawer");
+    var brand = document.querySelector(".masthead__site-brand");
+    var menu = document.querySelector(".masthead__menu");
+
+    function closeDrawer() {
+      drawer.classList.add("hidden");
+      toggle.classList.remove("close");
+      toggle.setAttribute("aria-expanded", "false");
+    }
+
+    function updateNavMode() {
+      if (!links || !toggle || !brand || !menu) return;
+
+      nav.classList.remove("masthead-nav--collapsed");
+      links.style.display = "inline-flex";
+
+      var menuStyles = window.getComputedStyle(menu);
+      var gap = parseFloat(menuStyles.columnGap || menuStyles.gap || "0") || 0;
+      var available = menu.clientWidth;
+      var needed = brand.offsetWidth + gap + links.scrollWidth + 8;
+
+      if (needed > available) {
+        nav.classList.add("masthead-nav--collapsed");
+        links.style.display = "";
+        closeDrawer();
+      } else {
+        links.style.display = "";
+        closeDrawer();
+      }
+    }
+
+    toggle.addEventListener("click", function () {
+      if (!nav.classList.contains("masthead-nav--collapsed")) return;
+      drawer.classList.toggle("hidden");
+      toggle.classList.toggle("close");
+      toggle.setAttribute(
+        "aria-expanded",
+        drawer.classList.contains("hidden") ? "false" : "true"
+      );
+    });
+
+    window.addEventListener("resize", updateNavMode);
+    updateNavMode();
+
+    if ("ResizeObserver" in window) {
+      var observer = new ResizeObserver(updateNavMode);
+      observer.observe(nav);
+      observer.observe(brand);
+    }
+  });
+</script>
 
 {% include analytics.html %}
 
