@@ -1,0 +1,48 @@
+.publication-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  align-items: center;
+  margin: 0.35rem 0 0.7rem;
+}
+
+.publication-meta__venue,
+.publication-meta__year,
+.publication-meta__status {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.2rem 0.6rem;
+  border-radius: 999px;
+  font-size: 0.82rem;
+  line-height: 1.2;
+}
+
+.publication-meta__venue {
+  background: rgba(29, 78, 216, 0.08);
+  color: #1d4ed8;
+}
+
+.publication-meta__year {
+  background: rgba(55, 65, 81, 0.08);
+  color: var(--global-text-color);
+}
+
+.publication-meta__status {
+  background: rgba(180, 83, 9, 0.12);
+  color: #b45309;
+}
+
+.publication-citation {
+  margin-top: 0.5rem;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.publication-links {
+  margin-top: 0.45rem;
+  font-size: 0.95rem;
+}
+
+.publication-links__sep {
+  color: var(--global-text-color-light);
+}
