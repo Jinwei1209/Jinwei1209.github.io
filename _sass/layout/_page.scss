@@ -276,18 +276,50 @@
   color: var(--global-text-color-light);
 }
 
-.home-contact-grid {
+.home-contact-panel {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+  align-items: center;
+  gap: 3rem;
+  text-align: center;
+}
+
+.home-contact-panel__column h2 {
+  margin-top: 0;
+  margin-bottom: 0.9rem;
+  border-bottom: none;
+  font-size: 1.2rem;
+}
+
+.home-contact-panel__column p {
+  margin: 0.2rem 0;
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+.home-contact-panel__logos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   gap: 1.2rem;
 }
 
-.home-contact-grid p {
-  margin: 0;
-  padding: 1.25rem 1.4rem;
-  border: 1px solid var(--global-border-color);
-  border-radius: 18px;
-  background: #fff;
+.home-contact-panel__logo {
+  display: block;
+  height: auto;
+}
+
+.home-contact-panel__logo--umass {
+  width: 168px;
+}
+
+.home-contact-panel__logo--lab {
+  width: 150px;
+}
+
+.home-contact-panel__column--mission .home-section__link {
+  display: inline-block;
+  margin-top: 1rem;
 }
 
 .research-carousel {
@@ -387,7 +419,8 @@
 
   .home-intro-grid,
   .home-split-grid,
-  .home-contact-grid {
+  .home-contact-grid,
+  .home-contact-panel {
     grid-template-columns: 1fr;
   }
 
@@ -402,6 +435,36 @@
   .home-section__heading {
     align-items: flex-start;
     flex-direction: column;
+    gap: 0.35rem;
+    margin-bottom: 1.1rem;
+  }
+
+  .home-section__heading h2 {
+    margin-bottom: 0;
+  }
+
+  .home-section__link {
+    display: inline-block;
+  }
+
+  .home-contact-panel {
+    gap: 1.8rem;
+  }
+
+  .home-contact-panel__column--logo {
+    order: -1;
+  }
+
+  .home-contact-panel__logos {
+    gap: 0.9rem;
+  }
+
+  .home-contact-panel__logo--umass {
+    width: 118px;
+  }
+
+  .home-contact-panel__logo--lab {
+    width: 120px;
   }
 
   .home-news-list li {

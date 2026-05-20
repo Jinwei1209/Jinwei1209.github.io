@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "Home"
-author_profile: true
+author_profile: false
 show_title: false
 redirect_from: 
   - /about/
@@ -136,15 +136,27 @@ redirect_from:
 
 <section class="home-section home-section--contact">
   <div class="home-section__inner">
-    <div class="home-section__heading">
-      <h2>Contact</h2>
-      <a href="/contact/" class="home-section__link">Full contact page</a>
-    </div>
-    <div class="home-contact-grid">
-      <p>University of Massachusetts Amherst</p>
-      <p>Life Sciences Laboratories, Room S607</p>
-      <p>Goessmann Laboratory, Room 266</p>
-      <p><a href="mailto:jinweizhang@umass.edu">jinweizhang@umass.edu</a></p>
+    <div class="home-contact-panel">
+      <div class="home-contact-panel__column home-contact-panel__column--info">
+        <h2>Contact Us</h2>
+        <p><a href="mailto:jinweizhang@umass.edu">jinweizhang@umass.edu</a></p>
+        <p>Life Sciences Laboratories, Room S607</p>
+        <p>Goessmann Laboratory, Room 266</p>
+        <p>University of Massachusetts Amherst</p>
+      </div>
+
+      <div class="home-contact-panel__column home-contact-panel__column--logo">
+        <div class="home-contact-panel__logos">
+          <img src="/M%20Shortform_lockup_rgb.png" alt="University of Massachusetts Amherst logo" class="home-contact-panel__logo home-contact-panel__logo--umass">
+          <img src="/Lab_Logo_notext.png" alt="Intelligent MRI Lab logo" class="home-contact-panel__logo home-contact-panel__logo--lab">
+        </div>
+      </div>
+
+      <div class="home-contact-panel__column home-contact-panel__column--mission">
+        <h2>Mission Statement</h2>
+        <p>We develop artificial intelligence and computational MRI methods to make neuroimaging faster, more quantitative, and more useful for understanding brain disease and supporting translational research.</p>
+        <a href="/contact/" class="home-section__link">Full contact page</a>
+      </div>
     </div>
   </div>
 </section>
