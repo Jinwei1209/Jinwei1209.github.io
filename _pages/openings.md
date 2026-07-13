@@ -13,7 +13,7 @@ The Intelligent MRI Lab at the University of Massachusetts Amherst is currently 
 
 - MRI reconstruction and inverse problems
 - Quantitative MRI
-- Quantitative susceptibility mapping
+- Quantitative tissue parameter mapping
 - Lesion analysis and longitudinal neuroimaging
 - Machine learning for medical imaging
 

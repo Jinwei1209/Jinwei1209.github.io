@@ -12,7 +12,7 @@ redirect_from:
   <div class="home-banner__inner">
     <p class="home-banner__eyebrow">University of Massachusetts Amherst</p>
     <h1>Intelligent MRI Lab</h1>
-    <p>AI and computational MRI for quantitative neuroimaging, accelerated acquisition, susceptibility mapping, and lesion analysis.</p>
+    <p>AI and computational MRI for quantitative neuroimaging, accelerated acquisition, tissue parameter mapping, and lesion analysis.</p>
   </div>
 </section>
 
@@ -48,8 +48,8 @@ redirect_from:
         <article class="research-card">
           <div class="research-card__image research-card__image--qsm"></div>
           <div class="research-card__body">
-            <h3>Susceptibility Mapping</h3>
-            <p>Computational pipelines for quantitative susceptibility estimation and analysis.</p>
+            <h3>Quantitative Tissue Parameter Mapping</h3>
+            <p>Computational pipelines for quantitative tissue parameter estimation and analysis.</p>
           </div>
         </article>
         <article class="research-card">
@@ -66,14 +66,6 @@ redirect_from:
             <p>Methods for monitoring change over time in neuroimaging studies.</p>
           </div>
         </article>
-        <article class="research-card">
-          <div class="research-card__image research-card__image--ai"></div>
-          <div class="research-card__body">
-            <h3>AI for Neuroimaging</h3>
-            <p>Learning-based tools for reconstruction, analysis, and clinical translation.</p>
-          </div>
-        </article>
-
         <article class="research-card" aria-hidden="true">
           <div class="research-card__image research-card__image--accelerated"></div>
           <div class="research-card__body">
@@ -84,8 +76,8 @@ redirect_from:
         <article class="research-card" aria-hidden="true">
           <div class="research-card__image research-card__image--qsm"></div>
           <div class="research-card__body">
-            <h3>Susceptibility Mapping</h3>
-            <p>Computational pipelines for quantitative susceptibility estimation and analysis.</p>
+            <h3>Quantitative Tissue Parameter Mapping</h3>
+            <p>Computational pipelines for quantitative tissue parameter estimation and analysis.</p>
           </div>
         </article>
         <article class="research-card" aria-hidden="true">
@@ -100,13 +92,6 @@ redirect_from:
           <div class="research-card__body">
             <h3>Longitudinal Imaging</h3>
             <p>Methods for monitoring change over time in neuroimaging studies.</p>
-          </div>
-        </article>
-        <article class="research-card" aria-hidden="true">
-          <div class="research-card__image research-card__image--ai"></div>
-          <div class="research-card__body">
-            <h3>AI for Neuroimaging</h3>
-            <p>Learning-based tools for reconstruction, analysis, and clinical translation.</p>
           </div>
         </article>
       </div>

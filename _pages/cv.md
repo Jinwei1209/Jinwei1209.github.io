@@ -17,7 +17,7 @@ The Intelligent MRI Lab develops AI and computational imaging methods for quanti
 Research Focus
 ======
 * Accelerated MRI acquisition and reconstruction
-* Quantitative susceptibility mapping
+* Quantitative tissue parameter mapping
 * White matter lesion analysis
 * Longitudinal neuroimaging biomarkers
 * Machine learning for computational MRI
