@@ -17,8 +17,8 @@ Institution: University of Massachusetts Amherst
 
 ## Prospective Trainees
 
-If you are interested in joining the lab, include a short note about the best way to reach out, what materials to send, and which backgrounds are especially relevant.
+Prospective PhD and master's students with experience in computational imaging and medical image analysis are warmly encouraged to get in touch. Please include your CV when you reach out. Undergraduate students who are interested in medical imaging research are also very welcome to contact me.
 
 ## Collaborators
 
-Use this section for collaboration inquiries related to quantitative MRI, neuroimaging analysis, and translational AI.
+We welcome collaboration inquiries related to quantitative MRI, neuroimaging analysis, and translational AI.
