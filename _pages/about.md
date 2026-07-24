@@ -29,7 +29,7 @@ redirect_from:
   </div>
 </section>
 
-<section class="home-section">
+<section class="home-section home-section--research">
   <div class="home-section__inner">
     <div class="home-section__heading">
       <h2>Research</h2>
@@ -95,26 +95,6 @@ redirect_from:
           </div>
         </article>
       </div>
-    </div>
-  </div>
-</section>
-
-<section class="home-section home-section--split">
-  <div class="home-section__inner home-split-grid">
-    <div class="home-card">
-      <h2>Recent Updates</h2>
-      <ul class="home-news-list">
-        {% for post in site.posts limit:3 %}
-        <li><span>{{ post.date | date: "%b %d, %Y" }}</span><a href="{{ post.url }}">{{ post.title }}</a></li>
-        {% endfor %}
-      </ul>
-      <a href="/news/" class="home-section__link">See all news</a>
-    </div>
-
-    <div class="home-card">
-      <h2>Openings</h2>
-      <p>The lab is currently being established. We welcome inquiries from prospective PhD students, postdocs, and collaborators interested in MRI, machine learning, image reconstruction, and clinically relevant neuroimaging.</p>
-      <p>Email <a href="mailto:jinweizhang@umass.edu">jinweizhang@umass.edu</a> or visit the <a href="/openings/">Openings</a> page for details.</p>
     </div>
   </div>
 </section>
