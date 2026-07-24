@@ -70,7 +70,3 @@ Automated segmentation, longitudinal tracking, and biomarker discovery for white
   <li><a href="https://www.sciencedirect.com/science/article/pii/S2213158221002989">ALL-Net: Anatomical information lesion-wise loss function integrated into neural network for multiple sclerosis lesion segmentation</a>. <em>NeuroImage: Clinical</em>, 2021.</li>
   <li><a href="https://www.sciencedirect.com/science/article/pii/S2213158222000444">QSMRim-Net: Imbalance-aware learning for identification of chronic active multiple sclerosis lesions on quantitative susceptibility maps</a>. <em>NeuroImage: Clinical</em>, 2022.</li>
 </ul>
-
-## Collaboration
-
-We are interested in collaborations spanning MRI methodology, clinical neuroimaging, and translational data science. This page can grow to include project summaries, representative figures, and grant-supported efforts.
