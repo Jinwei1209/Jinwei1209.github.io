@@ -77,12 +77,32 @@
 }
 
 .author-contact-links {
+  display: block;
   margin-top: 3rem;
+  max-width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
   padding-top: 1.5rem;
-  border-top: 1px solid var(--global-border-color);
+  border-top: 0 !important;
+  box-shadow: none !important;
+  text-align: left;
+  clear: both;
+}
+
+.author-contact-links > * {
+  float: none !important;
+  clear: both;
+}
+
+.author-contact-links h2 {
+  display: block;
+  margin: 0 0 1rem;
+  text-align: left;
+  width: auto;
 }
 
 .author-contact-links__list {
+  display: block;
   margin: 0;
   padding: 0;
   list-style: none;

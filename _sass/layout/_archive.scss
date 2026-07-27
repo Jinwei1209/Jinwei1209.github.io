@@ -4,17 +4,10 @@
 
 .archive {
   margin-bottom: 2em;
-  max-width: 1100px;
+  width: min(1100px, calc(100% - 4rem));
+  max-width: none;
   margin-left: auto;
   margin-right: auto;
-
-  @include breakpoint($medium) {
-    @include span(12 of 12);
-  }
-
-  @include breakpoint($large) {
-    @include span(12 of 12);
-  }
 
   a {
     text-decoration: underline;
@@ -92,17 +85,7 @@
    ========================================================================== */
 
 .list__item {
-  @include breakpoint($medium) {
-    padding-right: $right-sidebar-width-narrow;
-  }
-
-  @include breakpoint($large) {
-    padding-right: $right-sidebar-width;
-  }
-
-  @include breakpoint($x-large) {
-    padding-right: $right-sidebar-width-wide;
-  }
+  padding-right: 0;
 
   .page__meta {
     margin: 0 0 4px;
