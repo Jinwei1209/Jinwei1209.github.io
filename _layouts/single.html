@@ -15,7 +15,7 @@ layout: default
 {% endif %}
 
 <div id="main" role="main" class="{% if page.url == '/' %}main--home{% endif %}">
-  <article class="page {% if page.url == '/' %}page--home{% endif %}" itemscope itemtype="http://schema.org/CreativeWork">
+  <article class="page {% if page.url == '/' %}page--home{% endif %}{% if page.compact_page %} page--compact{% endif %}" itemscope itemtype="http://schema.org/CreativeWork">
     {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
     {% if page.excerpt %}<meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
     {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date: "%B %d, %Y" }}">{% endif %}

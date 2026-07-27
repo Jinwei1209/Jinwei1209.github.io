@@ -3,6 +3,7 @@ layout: single
 title: "Journal Club"
 permalink: /journal-club/
 author_profile: true
+compact_page: true
 ---
 
 ## Journal Club
