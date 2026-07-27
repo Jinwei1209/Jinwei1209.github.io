@@ -8,6 +8,9 @@
   color: var(--global-text-color-light);
   border-top: 0 !important;
   box-shadow: none !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
   float: left;
   margin-left: 0;
@@ -15,6 +18,8 @@
   margin-top: 0;
   width: 100%;
   clear: both;
+  min-height: 56px;
+  padding: 0;
 
   /* keep footer in normal document flow so custom widgets do not overlap content */
   height: auto;
@@ -63,8 +68,12 @@
   width: 100%;
   font-family: $global-font-family;
   font-size: $type-size-7;
+  line-height: 1.2;
   text-align: center;
   color: #a7adb3 !important;
+  margin: 0;
+  padding: 0;
+  transform: translateY(5px);
 }
 
 .page__footer-follow {
