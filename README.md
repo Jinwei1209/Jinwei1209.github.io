@@ -66,11 +66,24 @@ Working from a different OS, or just want to avoid installing dependencies? You 
 You can build and execute the container by running the following command in the repository:
 
 ```bash
-chmod -R 777 .
-docker compose up
+docker compose run --build --rm -p 127.0.0.1:4000:4000 jekyll-site
 ```
 
-You should now be able to access the website from `localhost:4000`.
+Use `sudo docker compose` if your account requires sudo to access Docker. Keep the
+terminal running and open http://localhost:4000/ (or http://localhost:4000/news/
+for lab news). Content changes are rebuilt automatically; refresh the browser to
+see them. Press `Ctrl+C` to stop the preview.
+
+The image keeps its Gemfile and lockfile in `/opt/jekyll`, outside the mounted
+repository, so a local `Gemfile.lock` cannot override the dependencies installed
+in Docker. Rebuild with the command above after changing `Gemfile`.
+
+If Docker runs on a remote server, run the following on your own computer and
+then open the same localhost URLs in your browser:
+
+```bash
+ssh -N -L 4000:127.0.0.1:4000 username@your-server
+```
 
 ### Using the DevContainer in VS Code
 
