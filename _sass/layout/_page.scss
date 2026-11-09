@@ -88,18 +88,6 @@
   }
 }
 
-.page--compact {
-  .page__inner-wrap {
-    background: transparent !important;
-  }
-
-  .page__content,
-  .page__meta,
-  .page__share {
-    background: #fff;
-  }
-}
-
 @media (max-width: 960px) {
   .page:not(.page--home) {
     width: calc(100% - 2rem);
@@ -446,7 +434,8 @@
   border: 1px solid var(--global-border-color);
 }
 
-.people-profile__content h2 {
+.people-profile__content h2,
+.people-profile__content h3 {
   margin-top: 0;
 }
 
