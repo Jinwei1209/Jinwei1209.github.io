@@ -105,8 +105,9 @@ redirect_from:
       <div class="home-contact-panel__column home-contact-panel__column--info">
         <h2>Contact Us</h2>
         <p><a href="mailto:jinweizhang@umass.edu">jinweizhang@umass.edu</a></p>
-        <p>Life Sciences Laboratories, Room S607</p>
-        <p>Goessmann Laboratory, Room 266</p>
+        <p>Office: Room S621</p>
+        <p>Computational Lab and Student Office: Room S523</p>
+        <p>Life Sciences Laboratories (LSL)</p>
         <p>University of Massachusetts Amherst</p>
       </div>
 

@@ -5,18 +5,29 @@ permalink: /people/
 author_profile: true
 ---
 
-## Principal Investigator
-
 <div class="people-profile">
   <div class="people-profile__photo">
     <img src="/photos/JinweiZhang.jpg" alt="Jinwei Zhang">
   </div>
   <div class="people-profile__content">
+    <h3>Jinwei Zhang</h3>
+    <p>Principal Investigator</p>
     <p>Jinwei Zhang leads the Intelligent MRI Lab at the University of Massachusetts Amherst. The lab focuses on quantitative MRI, computational imaging, neuroimaging analysis, and AI methods for clinically relevant imaging problems.</p>
   </div>
 </div>
 
 ## Lab Members
+
+<div class="people-profile">
+  <div class="people-profile__photo">
+    <img src="/photos/yesutorwu-dzidzornu-cropped.jpg" alt="Yesutorwu Dzidzornu">
+  </div>
+  <div class="people-profile__content">
+    <h3>Yesutorwu Dzidzornu</h3>
+    <p>Research Assistant</p>
+    <p>Yesutorwu Dzidzornu holds a Bachelor of Science in Sports Biology from Springfield College. His interests lie at the intersection of medicine, artificial intelligence, and design, with a growing focus on medical imaging and neurosurgery. He is currently working on automatic segmentation of hippocampal subfields using ASHS, with an interest in improving MRI image quality. Outside of research, he enjoys graphic design, playing the keyboard, producing music, and has experience supporting individuals with special needs and mental health conditions.</p>
+  </div>
+</div>
 
 <div class="people-profile">
   <div class="people-profile__photo">

@@ -10,9 +10,9 @@ compact_page: true
 
 Email: `jinweizhang@umass.edu`
 
-Office: Room S607, Life Sciences Laboratories (LSL)
+Office: Room S621, Life Sciences Laboratories (LSL)
 
-Computational Lab and Student Office: Room 266, Goessmann Laboratory (GSMN)
+Computational Lab and Student Office: Room S523, Life Sciences Laboratories (LSL)
 
 Institution: University of Massachusetts Amherst
 
