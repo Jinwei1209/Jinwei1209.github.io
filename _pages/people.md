@@ -61,7 +61,3 @@ author_profile: true
     <p>My name is Ava Lewenczuk, and I am an undergraduate student studying Biomedical Engineering at UMass Amherst. I am currently working on the MS vs. CSVD lesion project in the Intelligent MRI Lab, which focuses on analyzing lesion characteristics and morphology to improve the understanding and differentiation of multiple sclerosis and cerebral small vessel disease. I am particularly interested in neuroscience and exploring engineering based approaches to better understand neurological disorders and ultimately improve neurological health.</p>
   </div>
 </div>
-
-## Join the Lab
-
-We welcome inquiries from prospective PhD students, postdocs, and collaborators interested in MRI, machine learning, image reconstruction, and clinical neuroimaging. Please reach out by email if you are interested in joining the lab.
