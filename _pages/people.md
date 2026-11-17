@@ -61,3 +61,14 @@ author_profile: true
     <p>My name is Ava Lewenczuk, and I am an undergraduate student studying Biomedical Engineering at UMass Amherst. I am currently working on the MS vs. CSVD lesion project in the Intelligent MRI Lab, which focuses on analyzing lesion characteristics and morphology to improve the understanding and differentiation of multiple sclerosis and cerebral small vessel disease. I am particularly interested in neuroscience and exploring engineering based approaches to better understand neurological disorders and ultimately improve neurological health.</p>
   </div>
 </div>
+
+<div class="people-profile">
+  <div class="people-profile__photo">
+    <img src="/photos/nish-methuku.png" alt="Nish Methuku">
+  </div>
+  <div class="people-profile__content">
+    <h3>Nish Methuku</h3>
+    <p>Undergraduate Student</p>
+    <p>I am a junior at UMass Amherst studying Computer Science with an AI concentration and a Biology minor. My research interests are in applying AI and machine learning to healthcare and other human centered problems and I also work on AI agent safety. In the IntelliMRI Lab, I am working on cortical lesion segmentation in multiple sclerosis. Outside of research, I enjoy pickleball, hiking, cooking and traveling.</p>
+  </div>
+</div>
