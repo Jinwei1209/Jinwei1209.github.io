@@ -66,7 +66,7 @@ Automated segmentation, longitudinal tracking, and biomarker discovery for white
 
 <ul class="research-page-publications">
   <li><a href="https://www.sciencedirect.com/science/article/pii/S136184152600023X">UNISELF: A Unified Network with Instance normalization and Self-Ensembled Lesion Fusion for Multiple Sclerosis Lesion Segmentation</a>. <em>Medical Image Analysis</em>, 2026.</li>
-  <li><a href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13406/134060W/Bi-directional-MS-lesion-filling-and-synthesis-using-denoising-diffusion/10.1117/12.3047407.short">Bi-directional MS lesion filling and synthesis using denoising diffusion implicit model-based lesion repainting</a>. <em>SPIE Medical Imaging</em>, 2025.</li>
+  <li><a href="https://doi.org/10.1016/j.media.2026.104338">MSRepaint: Multiple Sclerosis Repaint with conditional denoising diffusion implicit model for bidirectional lesion filling and synthesis</a>. <em>Medical Image Analysis</em>, 2027.</li>
   <li><a href="https://www.sciencedirect.com/science/article/pii/S2213158221002989">ALL-Net: Anatomical information lesion-wise loss function integrated into neural network for multiple sclerosis lesion segmentation</a>. <em>NeuroImage: Clinical</em>, 2021.</li>
   <li><a href="https://www.sciencedirect.com/science/article/pii/S2213158222000444">QSMRim-Net: Imbalance-aware learning for identification of chronic active multiple sclerosis lesions on quantitative susceptibility maps</a>. <em>NeuroImage: Clinical</em>, 2022.</li>
 </ul>
